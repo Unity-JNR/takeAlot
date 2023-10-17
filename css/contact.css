@@ -1,0 +1,65 @@
+header{
+    padding: 50px;
+    background-color: blue;
+
+
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: blue;
+  }
+
+  input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  /* Add hover effect for the submit button */
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+  }
+
+  a:hover{
+    text-transform: capitalize;
+    padding: 20px;
+    text-decoration: underline;
+  }
+
+  p{
+    animation-name: cls;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes cls {
+    0%{
+        color: blue;
+        font-weight: 800;
+    }
+    50%{
+        color: black;
+        font-weight: 800;
+    }
+    100%{
+        color: blue;
+        font-weight: 800;
+    }
+    
+  }
