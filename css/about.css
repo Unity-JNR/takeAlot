@@ -45,6 +45,10 @@ header{
     
   }
 
+  h1::after{
+    content: ".";
+  }
+
   @media (max-width:998px){
 
     h1{
