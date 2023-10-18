@@ -33,7 +33,51 @@ section{
   
 }
 
-#sec1{
-   
-    
-}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+  }
+
+  a:hover{
+    text-transform: capitalize;
+    padding: 20px;
+    text-decoration: underline;
+  }
+  #imgsize{
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+
+  @media (max-width:998px){
+    .container img{
+        width: 50px;
+        height: 70px;
+    }
+
+    .container h2{
+font-size: 15px;
+    }
+
+    .container p{
+        font-size: 20px;
+    }
+
+    header{
+        padding: 20px;
+    }
+
+    nav{
+        font-size: 12px;
+    }
+
+    #imgsize{
+        bottom: 1px;
+        width: 50px;
+        height: 30px;
+    }
+  }
+  
