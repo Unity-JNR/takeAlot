@@ -47,6 +47,27 @@ form {
     animation-duration: 3s;
     animation-iteration-count: infinite;
   }
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    height: 60px;
+}
+
+.footer-container{
+    display: flex;
+    height: 100vh;
+    align-items: flex-end;
+    margin-bottom: 1.4rem;
+}
+
+
+/* Style the copyright notice */
+footer p {
+    margin: 0; /* Remove default paragraph margins */
+    font-size: 14px; /* Adjust the font size as needed */
+}
+
 
   @keyframes cls {
     0%{
