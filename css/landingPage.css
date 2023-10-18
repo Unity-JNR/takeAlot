@@ -69,8 +69,8 @@ footer {
 footer p {
     margin: 0; /* Remove default paragraph margins */
     font-size: 14px; /* Adjust the font size as needed */
+    
 }
-
 @media (max-width:998px){
 
 body{
