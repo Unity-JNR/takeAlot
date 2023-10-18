@@ -37,6 +37,7 @@ header{
     text-decoration: underline;
   }
 
+
   footer {
     background-color: #333;
     color: #fff;
@@ -57,3 +58,44 @@ footer p {
     margin: 0; /* Remove default paragraph margins */
     font-size: 14px; /* Adjust the font size as needed */
 }
+
+  #imgsize{
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+    margin-bottom: 20px;
+    
+  }
+
+  h1::after{
+    content: ".";
+  }
+
+  @media (max-width:998px){
+
+    h1{
+        font-size: 15px;
+    }
+
+    #about-us{
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+
+    header{
+        padding: 20px;
+    }
+
+    nav{
+        font-size: 12px;
+    }
+
+    #imgsize{
+        bottom: 1px;
+        width: 50px;
+        height: 30px;
+        
+    }
+  }
+

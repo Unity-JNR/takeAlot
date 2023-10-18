@@ -60,10 +60,10 @@ a.current {
   #imgsize{
     width: 100px;
     height: 50px;
-    float: left;
     display: inline-block;
     margin-bottom: 20px;
   }
+
 
   footer {
     background-color: #333;
@@ -85,3 +85,37 @@ footer p {
     margin: 0; /* Remove default paragraph margins */
     font-size: 14px; /* Adjust the font size as needed */
 }
+
+  a.current {
+    /* Your styles for the "current" link go here */
+    pointer-events: none; /* Disables the link */
+    text-decoration: none; /* Removes the underline */
+    color: #888; /* Change the color to indicate it's disabled */
+  }
+
+
+
+
+  @media (max-width:998px){
+
+table{
+    width: 50%;
+    border-collapse: collapse;
+}
+
+    header{
+        padding: 20px;
+    }
+
+    nav{
+        font-size: 12px;
+    }
+
+    #imgsize{
+        bottom: 1px;
+        width: 50px;
+        height: 30px;
+        
+    }
+  }
+

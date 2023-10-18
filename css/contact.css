@@ -14,6 +14,21 @@ form {
     background-color: blue;
   }
 
+  label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+  input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
   input[type="submit"] {
     background-color: #007BFF;
     color: #fff;
@@ -42,9 +57,10 @@ form {
     text-decoration: underline;
   }
 
-  p{
+  .border{
     animation-name: cls;
-    animation-duration: 3s;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
     animation-iteration-count: infinite;
   }
   footer {
@@ -71,16 +87,61 @@ footer p {
 
   @keyframes cls {
     0%{
-        color: blue;
-        font-weight: 800;
+        border-color: palevioletred;
+        
     }
     50%{
-        color: black;
-        font-weight: 800;
+        border-color: black;
+        
     }
     100%{
-        color: blue;
-        font-weight: 800;
+        border-color: palevioletred;
+        
     }
     
   }
+  
+  a.current {
+    /* Your styles for the "current" link go here */
+    pointer-events: none; /* Disables the link */
+    text-decoration: none; /* Removes the underline */
+    color: #888; /* Change the color to indicate it's disabled */
+  }
+
+  
+#imgsize{
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+    margin-bottom: 20px;
+    
+  }
+
+  @media (max-width:998px){
+
+    h1{
+        font-size: 15px;
+    }
+
+    #about-us{
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+
+    header{
+        padding: 20px;
+    }
+
+    nav{
+        font-size: 12px;
+    }
+
+    #imgsize{
+        bottom: 1px;
+        width: 50px;
+        height: 30px;
+        
+    }
+  }
+  
