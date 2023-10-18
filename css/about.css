@@ -1,0 +1,38 @@
+header{
+    padding: 50px;
+    background-color: blue;
+}
+
+#about-us {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #about-us strong {
+    font-weight: bold;
+  }
+  
+  a.current {
+    /* Your styles for the "current" link go here */
+    pointer-events: none; /* Disables the link */
+    text-decoration: none; /* Removes the underline */
+    color: #888; /* Change the color to indicate it's disabled */
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+  }
+
+  a:hover{
+    text-transform: capitalize;
+    padding: 20px;
+    text-decoration: underline;
+  }
