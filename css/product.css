@@ -10,7 +10,7 @@
 
 header{
     background-color: blue;
-    padding: 50px;
+    padding: 3px;
     margin-bottom: 10px;
 }
 
@@ -44,12 +44,14 @@ a{
     text-transform: capitalize;
     padding: 20px;
     text-decoration: underline;
+    
   }
   #imgsize{
     width: 100px;
     height: 50px;
     display: inline-block;
     margin-bottom: 20px;
+    
   }
 
   footer {
@@ -88,7 +90,7 @@ font-size: 15px;
     }
 
     header{
-        padding: 20px;
+        padding: 2px;
     }
 
     nav{
