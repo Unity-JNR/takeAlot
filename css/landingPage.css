@@ -49,6 +49,27 @@ button:hover {
     background-color: #0056b3; /* Change the background color on hover */
 }
 
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    height: 60px;
+}
+
+.footer-container{
+    display: flex;
+    height: 100vh;
+    align-items: flex-end;
+    margin-bottom: 1.4rem;
+}
+
+
+/* Style the copyright notice */
+footer p {
+    margin: 0; /* Remove default paragraph margins */
+    font-size: 14px; /* Adjust the font size as needed */
+
 @media (max-width:998px){
 
 body{
@@ -74,4 +95,5 @@ main{
     justify-content: center;
 }
 
+>
 }
