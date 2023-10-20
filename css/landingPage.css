@@ -71,30 +71,35 @@ footer p {
     font-size: 14px; /* Adjust the font size as needed */
     
 }
-@media (max-width:998px){
+/* Default styles for screens wider than 720px */
+/* Place your default styles here */
 
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
-
-main{
-    padding: 95px;
-    padding-top: -50px;
-}
-#image{
-    width: 150px;
-    height: 100px;
-}
-
-.container{
-    width: 50%;
-    display: flex;
-    justify-content: center;
-}
-
->
-}
+@media screen and (max-width: 720px) {
+    /* Styles for screens up to 720px wide */
+    main {
+      padding: 100px; /* Example: Reduce padding for smaller screens */
+    }
+    #image {
+      width: 300px; /* Example: Adjust image size for smaller screens */
+    }
+    #button {
+      padding: 8px 16px; /* Example: Adjust button padding for smaller screens */
+    }
+  }
+  
+  @media screen and (max-width: 300px) {
+    /* Styles for screens up to 300px wide */
+    main {
+      padding: 50px; /* Example: Further reduce padding for very small screens */
+    }
+    #image {
+      width: 200px; /* Example: Further adjust image size for very small screens */
+    }
+    #button {
+      padding: 6px 12px; /* Example: Further adjust button padding for very small screens */
+    }
+    .footer-container {
+      display: block; /* Example: Change display for the footer container on very small screens */
+    }
+  }
+  

@@ -96,7 +96,7 @@ footer p {
 
 
 
-  @media (max-width:998px){
+  /* @media (max-width:998px){
 
 table{
     width: 50%;
@@ -118,4 +118,35 @@ table{
         
     }
   }
+ */
+
+ @media screen and (max-width: 720px) {
+  /* Styles for screens up to 720px wide */
+  table {
+    font-size: 14px; /* Example: Adjust font size for smaller screens */
+  }
+  header {
+    padding: 5px; /* Example: Reduce header padding */
+  }
+  a {
+    padding: 10px; /* Example: Adjust link padding */
+  }
+}
+
+@media screen and (max-width: 300px) {
+  /* Styles for screens up to 300px wide */
+  table {
+    font-size: 12px; /* Example: Further reduce font size for very small screens */
+  }
+  header {
+    padding: 5px;
+  }
+  a {
+    padding: 5px; /* Example: Further adjust link padding */
+  }
+  footer p {
+    font-size: 12px; /* Example: Adjust font size in the footer */
+  }
+}
+
 
