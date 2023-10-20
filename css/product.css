@@ -75,32 +75,32 @@ footer p {
     font-size: 14px; /* Adjust the font size as needed */
 }
 
-  @media (max-width:998px){
-    .container img{
-        width: 50px;
-        height: 70px;
+ 
+/* Default styles for screens wider than 720px */
+/* Place your default styles here */
+
+@media screen and (max-width: 720px) {
+    /* Styles for screens up to 720px wide */
+    section {
+      margin-right: 10px; /* Example: Reduce right margin for smaller screens */
+      gap: 10px; /* Example: Reduce gap between sections */
     }
 
-    .container h2{
-font-size: 15px;
+    .size{
+        width: 250px;
+        height: 250px;
     }
-
-    .container p{
-        font-size: 20px;
+  }
+  
+  @media screen and (max-width: 300px) {
+    /* Styles for screens up to 300px wide */
+    section {
+      margin-right: 5px; /* Example: Further reduce right margin for very small screens */
+      gap: 5px; /* Example: Further reduce gap between sections for very small screens */
     }
-
-    header{
-        padding: 2px;
-    }
-
-    nav{
-        font-size: 12px;
-    }
-
-    #imgsize{
-        bottom: 1px;
-        width: 50px;
-        height: 30px;
+    .container {
+      grid-template-columns: 1fr; /* Example: Change to a single column layout for very small screens */
+      grid-template-rows: repeat(3, 1fr); /* Example: Keep three rows */
     }
   }
   

@@ -116,7 +116,7 @@ footer p {
     margin-bottom: 20px;
     
   }
-
+/* 
   @media (max-width:998px){
 
     h1{
@@ -144,4 +144,53 @@ footer p {
         
     }
   }
-  
+   */
+
+   /* Default styles for screens wider than 720px */
+/* Place your default styles here */
+
+@media screen and (max-width: 720px) {
+  /* Styles for screens up to 720px wide */
+  header {
+    padding: 5px; /* : Reduce header padding for smaller screens */
+  }
+  form {
+    max-width: 300px; /* : Adjust the form's maximum width for smaller screens */
+    padding: 10px; /* : Adjust form padding for smaller screens */
+  }
+  label {
+    margin-top: 5px; /* : Adjust label margin for smaller screens */
+  }
+  input[type="text"],
+  input[type="email"] {
+    width: 90%; /* : Reduce input width for smaller screens */
+  }
+  input[type="submit"] {
+    padding: 8px 16px; /* : Adjust submit button padding for smaller screens */
+  }
+}
+
+@media screen and (max-width: 300px) {
+  /* Styles for screens up to 300px wide */
+  header {
+    background-color: lightblue; /* : Change header background color for very small screens */
+  }
+  form {
+    max-width: 250px; /* : Further reduce form width for very small screens */
+    padding: 5px; /* : Further adjust form padding for very small screens */
+  }
+  input[type="text"],
+  input[type="email"] {
+    width: 85%; /* : Reduce input width further for very small screens */
+  }
+  input[type="submit"] {
+    padding: 6px 12px; /* : Further adjust submit button padding for very small screens */
+  }
+  .border {
+    animation: none; /* : Disable the animation for very small screens */
+  }
+  #imgsize {
+    display: none; /* : Hide the image for very small screens */
+  }
+}
+
