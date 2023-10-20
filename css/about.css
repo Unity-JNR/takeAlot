@@ -106,26 +106,26 @@ footer p {
 @media screen and (max-width: 720px) {
   /* Styles for screens up to 720px wide */
   header {
-    padding: 5px; /* Example: Adjust header padding for smaller screens */
+    padding: 5px; /* : Adjust header padding for smaller screens */
   }
   #about-us {
-    padding: 10px; /* Example: Adjust the padding for the about section */
+    padding: 10px; /* : Adjust the padding for the about section */
     background-color: #e0e0e0; /* Example: Change the background color for the about section */
   }
   a.current {
-    color: #888; /* Example: Adjust the color for disabled links */
+    color: #888; /* : Adjust the color for disabled links */
   }
   a {
-    padding: 10px; /* Example: Adjust link padding */
+    padding: 10px; /* : Adjust link padding */
   }
   a:hover {
-    padding: 15px; /* Example: Adjust link padding on hover */
+    padding: 15px; /* : Adjust link padding on hover */
   }
   footer {
-    height: 80px; /* Example: Adjust the footer height for smaller screens */
+    height: 80px; /* : Adjust the footer height for smaller screens */
   }
   footer p {
-    font-size: 12px; /* Example: Further reduce font size in the footer */
+    font-size: 12px; /* : Further reduce font size in the footer */
   }
   nav{
     display: block;
@@ -135,22 +135,22 @@ footer p {
 @media screen and (max-width: 300px) {
   /* Styles for screens up to 300px wide */
   header {
-    background-color: lightblue; /* Example: Change header background color for very small screens */
+    background-color: lightblue; /* : Change header background color for very small screens */
   }
   #about-us {
-    font-size: 12px; /* Example: Further reduce font size for very small screens */
+    font-size: 12px; /* : Further reduce font size for very small screens */
   }
   a {
-    padding: 5px; /* Example: Further adjust link padding */
+    padding: 5px; /* : Further adjust link padding */
   }
   a:hover {
-    padding: 10px; /* Example: Further adjust link padding on hover */
+    padding: 10px; /* : Further adjust link padding on hover */
   }
   footer {
-    height: 40px; /* Example: Further reduce footer height for very small screens */
+    height: 40px; /* : Further reduce footer height for very small screens */
   }
   footer p {
-    font-size: 10px; /* Example: Adjust font size in the footer */
+    font-size: 10px; /* : Adjust font size in the footer */
   }
   nav{
     display: block;

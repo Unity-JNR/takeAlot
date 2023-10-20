@@ -76,7 +76,7 @@ footer p {
 }
 
  
-/* Default styles for screens wider than 720px */
+
 /* Place your default styles here */
 
 @media screen and (max-width: 720px) {
@@ -95,11 +95,11 @@ footer p {
   @media screen and (max-width: 300px) {
     /* Styles for screens up to 300px wide */
     section {
-      margin-right: 5px; /* Example: Further reduce right margin for very small screens */
-      gap: 5px; /* Example: Further reduce gap between sections for very small screens */
+      margin-right: 5px; /* : Further reduce right margin for very small screens */
+      gap: 5px; /* : Further reduce gap between sections for very small screens */
     }
     .container {
-      grid-template-columns: 1fr; /* Example: Change to a single column layout for very small screens */
+      grid-template-columns: 1fr; /* : Change to a single column layout for very small screens */
       grid-template-rows: repeat(3, 1fr); /* Example: Keep three rows */
     }
   }
